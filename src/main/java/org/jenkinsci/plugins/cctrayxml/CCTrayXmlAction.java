@@ -74,9 +74,10 @@ public class CCTrayXmlAction implements Action {
                 case ABORTED_ANIME:
                 case RED:
                 case RED_ANIME:
+                    return "Failure";
                 case YELLOW:
                 case YELLOW_ANIME:
-                    return "Failure";
+                    return "Unstable";
                 case BLUE:
                 case BLUE_ANIME:
                     return "Success";
